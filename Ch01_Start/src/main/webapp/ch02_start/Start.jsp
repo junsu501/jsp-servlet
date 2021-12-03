@@ -10,7 +10,7 @@
 <body>
 
 	이름 :
-	<%=request.getParameter("name")%>
+	<%=request.getParameter("name")%> <!-- jsp는 request로 사용 -->
 	환영합니다.
 	<br>
 </body>
